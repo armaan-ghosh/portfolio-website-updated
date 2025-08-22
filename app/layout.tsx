@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { ClientLayout } from "./client-layout";
 import "./globals.css";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Armaan Ghosh — Portfolio",
   description:
     "Computer Engineering @ UWaterloo. I build fast, clean web apps (React/Next.js) and ship AI/data projects.",
