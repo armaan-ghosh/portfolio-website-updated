@@ -2,44 +2,31 @@ import type { Metadata } from "next";
 import { ClientLayout } from "./client-layout";
 import "./globals.css";
 
-export const metadata: Metadata = {
-  title: "Achyut Katiyar | Full Stack Developer",
-  description: "Full Stack Developer & Machine Learning Enthusiast with expertise in Next.js, React, and blockchain technologies.",
-  metadataBase: new URL("https://achyutkatiyar.com"),
-  
-  // Basic metadata
-  applicationName: "Achyut Katiyar Portfolio",
-  authors: [{ name: "Achyut Katiyar" }],
-  keywords: ["Full Stack Developer", "Web3", "Blockchain", "Next.js", "React", "Machine Learning"],
-  
+export const metadata = {
+  title: "Armaan Ghosh — Portfolio",
+  description:
+    "Computer Engineering @ UWaterloo. I build fast, clean web apps (React/Next.js) and ship AI/data projects.",
   openGraph: {
+    title: "Armaan Ghosh — Portfolio",
+    description:
+      "Web + AI projects, internships, and notes from building in public.",
+    url: "https://portfolio-website-updated-five.vercel.app/",
     type: "website",
-    url: "https://achyutkatiyar.com",
-    title: "Achyut Katiyar | Full Stack Developer",
-    description: "Full Stack Developer & Blockchain and Machine Learning Enthusiast with expertise in Next.js, React, and blockchain technologies.",
-    siteName: "Achyut Katiyar",
-    locale: "en_US",
-    images: [
-      {
-        url: "/images/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Achyut Katiyar - Portfolio",
-      },
-    ],
+    images: ["/og.png"] // add a 1200x630 image at /public/og.png
   },
-  
-  icons: {
-    icon: [
-      { url: "/favicon.ico" },
-      { url: "/icon.png", type: "image/png" },
-    ],
-    apple: { url: "/apple-touch-icon.png" },
-  },
-  
-  alternates: {
-    canonical: "https://achyutkatiyar.com",
-  },
+  twitter: { card: "summary_large_image" },
+  keywords: [
+    "Armaan Ghosh",
+    "University of Waterloo",
+    "Computer Engineering",
+    "React",
+    "Next.js",
+    "OpenCV",
+    "TensorFlow",
+    "AWS",
+    "Amazon QuickSight",
+  ],
+  metadataBase: new URL("https://portfolio-website-updated-five.vercel.app/")
 };
 
 export default function RootLayout({

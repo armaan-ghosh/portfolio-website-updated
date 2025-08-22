@@ -6,28 +6,28 @@ export interface SocialLink {
   }
   
   export const socialLinks: SocialLink[] = [
-    {
-      id: "github",
-      name: "GitHub",
-      url: "https://github.com/achyut21",
-      icon: "github"
-    },
-    {
-      id: "linkedin",
-      name: "LinkedIn",
-      url: "https://www.linkedin.com/in/achyutkatiyar2103/",
-      icon: "linkedin"
-    },
-    {
-      id: "email",
-      name: "Email",
-      url: "mailto:achyutkatiyar21@gmail.com",
-      icon: "mail"
-    },
-    {
-      id: "phone",
-      name: "Phone",
-      url: "tel:+18575766733",
-      icon: "phone"
-    }
-  ];
+  {
+    id: "github",
+    name: "GitHub",
+    url: "https://github.com/FranceForever",
+    icon: "github"
+  },
+  {
+    id: "linkedin",
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/armaan-ghosh-741178211/",
+    icon: "linkedin"
+  },
+  {
+    id: "email",
+    name: "Email",
+    url: "mailto:a65ghosh@uwaterloo.ca",
+    icon: "mail"
+  },
+  {
+    id: "phone",
+    name: "Phone",
+    url: "tel:+15489220973",
+    icon: "phone"
+  }
+];

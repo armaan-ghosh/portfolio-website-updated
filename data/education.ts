@@ -10,21 +10,14 @@ export interface Education {
   }
   
   export const education: Education[] = [
-    {
-      id: "northeastern",
-      degree: "Master's in Computer Science",
-      institution: "Northeastern University",
-      location: "Boston, Massachusetts, USA",
-      startDate: "January 2025",
-      endDate: "May 2027"
-    },
-    {
-      id: "srm",
-      degree: "Bachelor of Science in Computer Science",
-      institution: "SRM University - AP",
-      location: "Vijayawada, India",
-      startDate: "October 2020",
-      endDate: "May 2024",
-      gpa: "8.3/10.00"
-    }
-  ];
+  {
+    id: "uwaterloo-basc-ce",
+    degree: "BASc in Computer Engineering",
+    institution: "University of Waterloo",
+    location: "Waterloo, Ontario, Canada",
+    startDate: "September 2023",
+    endDate: "May 2028",
+    description:
+      "Coursework: Algorithms & Data Structures, Digital Circuits, ASIC Design, Embedded Systems. Involvements: EngSoc First Year Conference Director, Soccer Intramural Referee, Orientation Leader (Big)."
+  }
+];

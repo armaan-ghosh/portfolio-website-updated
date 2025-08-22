@@ -34,13 +34,13 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold mb-4">Who I Am</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I&apos;m Achyut Katiyar, a Full Stack Developer with a passion for creating innovative web applications and exploring blockchain technologies. I&apos;m currently pursuing a Master&apos;s in Computer Science at Northeastern University, where I continue to expand my knowledge and skills.
+                I&apos;m Armaan Ghosh, a Computer Engineering student at the University of Waterloo. I build on the web (React/Next.js) and ship AI/data projects. I&apos;m an incoming Software Engineering Intern at Shopify (Fall 2025); previously BOXX Insurance (data automation), Headstarter AI, and NowFloats.
               </p>
               <p>
-                With expertise in Next.js, React, and various blockchain technologies, I enjoy building scalable and user-friendly applications that solve real-world problems. My background in computer science has given me a strong foundation in algorithms, data structures, and system design, which I apply to create efficient and maintainable code.
+                I like turning ideas into fast, clean products—TypeScript/Node.js APIs with solid tests and docs, and polished UIs with Tailwind and Framer Motion. I work with AWS, MySQL/Firebase, and just enough ML (OpenCV, Cohere) to make features feel smart. My coursework strengthened algorithms, data structures, and systems thinking that I apply every day.
               </p>
               <p>
-                I&apos;m particularly interested in the intersection of web development and blockchain technology, where I&apos;ve developed several projects that leverage the power of decentralized systems to create secure and transparent applications.
+                Recently I automated claims ingestion (2h to &lt; 1 min with ~40% fewer data errors) and trained Amazon QuickSight Q to ~95% answer accuracy. I also built Hackademics (files/audio → Anki flashcards) and BudgetRoyale (a gamified finance tracker). Outside of code, I make YouTube videos for Waterloo students and run a football podcast, Offside Banter.
               </p>
             </div>
 
@@ -104,37 +104,37 @@ export default function AboutPage() {
                   <li className="flex items-start">
                     <span className="text-primary mr-2 font-bold">•</span>
                     <span>
-                      Led University&apos;s Technical Team as Convener, increasing student engagement by 40% through committee formation and industry-aligned website redesigns.
+                      Directed Waterloo Engineering Society’s 3-day First Year Conference (~1,800 students), coordinating presenters including the First Year Office and optimizing booth flow.
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2 font-bold">•</span>
                     <span>
-                      Served as a Board Member of the APP Design and Development Club, mentoring newcomers and improving skills by 60%.
+                      Built a Claims Automation API (TypeScript/Node.js/MySQL) that cut processing time from ~2 hours to &lt; 1 minute and reduced data errors by ~40%.
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2 font-bold">•</span>
                     <span>
-                      Won $1500 Nillion Track Prize at Hacker House Goa 2024.
+                      Trained Amazon QuickSight Q on US datasets to ~95% answer accuracy using synonyms, entity grouping, and calculated fields.
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2 font-bold">•</span>
                     <span>
-                      Awarded $600 at Move it with Aptos event.
+                      Shipped <em>Hackademics</em> at Hack the North ’24 — converts files/audio into Anki flashcards using LLM + speech-to-text; 200+ Q/A pairs generated in demos.
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2 font-bold">•</span>
                     <span>
-                      Received $500 Marbelism Track Prize at HACKSRM 2.0 2024.
+                      Built <em>BudgetRoyale</em> — early users cut unnecessary spend by ~20%/month and engagement rose ~30% in the first month.
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-primary mr-2 font-bold">•</span>
                     <span>
-                      Won $100 at APPATHON 2022.
+                      Creator: Waterloo YouTube channel (100k+ views) and <em>Offside Banter</em> football content (425k+ views) — building in public and growing community.
                     </span>
                   </li>
                 </ul>
