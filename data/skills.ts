@@ -2,8 +2,7 @@
 export type SkillCategory = 
   | 'Languages' 
   | 'Frameworks/Libraries' 
-  | 'ML/Data' 
-  | 'Blockchain/Web3' 
+  | 'ML/Data'
   | 'Cloud/DevOps' 
   | 'Concepts';
 
@@ -35,9 +34,6 @@ export const skills: Record<SkillCategory, Skill[]> = {
     { name: 'scikit-learn',      category: 'ML/Data', logoKey: 'python' },
     { name: 'pandas',            category: 'ML/Data', logoKey: 'pandas' },
     { name: 'Data Visualization',category: 'ML/Data', logoKey: 'jupyter' },
-  ],
-  'Blockchain/Web3': [
-    // No focus currently — leaving empty is fine
   ],
   'Cloud/DevOps': [
     { name: 'AWS',      category: 'Cloud/DevOps', logoKey: 'amazonwebservices' },

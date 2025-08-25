@@ -15,7 +15,7 @@ export interface SocialLink {
   {
     id: "linkedin",
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/armaan-ghosh-741178211/",
+    url: "https://www.linkedin.com/in/armaanghosh/",
     icon: "linkedin"
   },
   {

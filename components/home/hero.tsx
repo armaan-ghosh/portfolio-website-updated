@@ -12,9 +12,9 @@ export function Hero() {
   const [currentSkillIndex, setCurrentSkillIndex] = useState(0);
   const displayedSkills = [
     "Full Stack Developer",
-    "Web3 Enthusiast",
-    "Machine Learning Practitioner",
-    "UI/UX Designer"
+    "ML Enthusiast",
+    "Content Creator",
+    "Athlete"
   ];
 
   // Parallax effect setup
@@ -70,7 +70,7 @@ export function Hero() {
                 transition={{ duration: 0.5 }}
               >
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                  Hi, I&apos;m Achyut Katiyar
+                  Hi, I&apos;m Armaan Ghosh
                 </h1>
               </motion.div>
               <motion.div
@@ -102,9 +102,7 @@ export function Hero() {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="max-w-[600px] text-muted-foreground md:text-xl"
               >
-                A passionate developer with expertise in Next.js, React, Tailwind CSS,
-                and blockchain technologies. Currently pursuing a Master&apos;s in Computer Science
-                at Northeastern University.
+                A passionate developer with expertise in Next.js, React, and Tailwind CSS—building clean UIs and pragmatic APIs with TypeScript/Node and a dash of AI. Currently pursuing a BASc in Computer Engineering at the University of Waterloo; incoming Software Engineering Intern at Shopify (Fall ’25).
               </motion.p>
             </div>
             
@@ -124,7 +122,7 @@ export function Hero() {
               <Button variant="outline" size="lg" asChild>
                 <a 
                   href="/resume.pdf" 
-                  download="Achyut_Katiyar_Resume.pdf" 
+                  download="Armaan_Ghosh_Resume.pdf" 
                   target="_blank"                      
                   rel="noopener noreferrer"
                 >
@@ -176,8 +174,8 @@ export function Hero() {
           >
             <div className="relative aspect-square w-full max-w-md overflow-hidden rounded-full">
               <Image
-                src="/images/profile.jpg"
-                alt="Achyut Katiyar"
+                src="/images/profile_photo.png"
+                alt="Armaan Ghosh"
                 fill
                 className="object-cover"
                 priority

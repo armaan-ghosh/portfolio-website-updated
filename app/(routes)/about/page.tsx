@@ -34,13 +34,10 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold mb-4">Who I Am</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I&apos;m Armaan Ghosh, a Computer Engineering student at the University of Waterloo. I build on the web (React/Next.js) and ship AI/data projects. I&apos;m an incoming Software Engineering Intern at Shopify (Fall 2025); previously BOXX Insurance (data automation), Headstarter AI, and NowFloats.
+                Hey, I’m Armaan, a Computer Engineering student at UWaterloo. I ship neat things on the web with React/Next.js and TypeScript, and I love sprinkling in data/AI when it actually helps. I’m joining Shopify as a SWE intern in Fall ’25; before that I built automation and analytics at BOXX Insurance and hacked on projects with Headstarter and NowFloats.
               </p>
               <p>
-                I like turning ideas into fast, clean products—TypeScript/Node.js APIs with solid tests and docs, and polished UIs with Tailwind and Framer Motion. I work with AWS, MySQL/Firebase, and just enough ML (OpenCV, Cohere) to make features feel smart. My coursework strengthened algorithms, data structures, and systems thinking that I apply every day.
-              </p>
-              <p>
-                Recently I automated claims ingestion (2h to &lt; 1 min with ~40% fewer data errors) and trained Amazon QuickSight Q to ~95% answer accuracy. I also built Hackademics (files/audio → Anki flashcards) and BudgetRoyale (a gamified finance tracker). Outside of code, I make YouTube videos for Waterloo students and run a football podcast, Offside Banter.
+                I’m the “ship it, then polish it” kind of teammate: clear comms, clean code, and a bias for action. Off the keyboard, I make videos to help incoming Waterloo students and run a football podcast. I bring the same energy from the pitch to projects—communicate, press together, and finish strong.
               </p>
             </div>
 

@@ -152,7 +152,7 @@ export function Navbar() {
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ duration: 0.5 }}
                     >
-                      Achyut Katiyar
+                      Armaan Ghosh
                     </motion.span>
                   </Link>
                 </div>
