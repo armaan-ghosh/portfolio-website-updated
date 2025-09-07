@@ -1,4 +1,4 @@
-# Achyut Katiyar Portfolio
+# Armaan Ghosh Portfolio
 
 A modern, responsive portfolio website built with Next.js 14, Tailwind CSS, and Framer Motion featuring a stunning dark mode with animated stars background.
 
